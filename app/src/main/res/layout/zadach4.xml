@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Выберы ўрывак,які не з'яўляецца тэкстам і пазнаеш патрэбны вам нумар аўтобуса."
+                android:id="@+id/textView72"
+                android:layout_weight="0.58" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Восень. На вуліцы стала холадна. Я не люблю халады, але мне падабаецца жоўтае военьскае лісце. Я збіраю яго і раблю прыгожыя букеты."
+                android:id="@+id/textView73"
+                android:layout_weight="0.14"
+                android:layout_marginTop="29dp"
+                android:layout_below="@+id/textView72"
+                android:layout_alignEnd="@+id/textView75" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Поўнач. Я паеду да бабулі. Увесну распускаецца лісце. Пірожныя былі вельмі смачныя. Маша выучыць урокі."
+                android:id="@+id/textView74"
+                android:layout_weight="0.58"
+                android:layout_marginTop="37dp"
+                android:layout_below="@+id/textView73"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Майго ката клічуць Марс. Ён рыжы і вельмі пухнаты. Марсу падабаецца гуляць з шарсцяной мышкайі званочкам. Я люблю свайго гадаванца!"
+                android:id="@+id/textView75"
+                android:layout_weight="0.58"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Нумар аўтобуса - "
+                android:id="@+id/textView76"
+                android:layout_below="@+id/textView75"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="48dp" />
+
+            <EditText
+                android:layout_width="46dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText43"
+                android:inputType="number"
+                android:ems="10"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignBottom="@+id/textView76"
+                android:layout_toEndOf="@+id/textView76" />
+
+            <Button
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:text="Проверь себя"
+                android:id="@+id/button24"
+                android:layout_gravity="center_horizontal"
+                android:layout_below="@+id/editText43"
+                android:layout_toEndOf="@+id/editText43" />
+
+
+
+
+</RelativeLayout>

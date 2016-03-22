@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+
+android:orientation="vertical"
+android:weightSum="1">
+<LinearLayout
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Имя"
+        android:textSize="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+    </TextView>
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:singleLine="true">
+
+
+    <requestFocus>
+        </requestFocus>
+    </EditText>
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1">
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="девочка / мальчик "
+        >
+    </TextView>
+    <CheckBox
+        android:id="@+id/chkDev"
+        android:layout_width="wrap_content"
+        android:layout_height="128dp"
+        android:layout_marginTop="22dp"
+        android:drawableBottom="@drawable/dev" />
+    <CheckBox
+        android:id="@+id/chkMal"
+        android:layout_width="wrap_content"
+        android:layout_height="128dp"
+        android:layout_marginTop="22dp"
+        android:drawableBottom="@drawable/mal"
+        />
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/linearLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    >
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="2/3 класс обучения"
+        >
+    </TextView>
+    <CheckBox
+        android:id="@+id/chk2"
+        android:layout_width="wrap_content"
+        android:layout_height="128dp"
+        android:layout_marginTop="22dp"
+        android:drawableBottom="@drawable/cl2"
+        />
+    <CheckBox
+        android:id="@+id/chk3"
+        android:layout_width="wrap_content"
+        android:layout_height="128dp"
+        android:layout_marginTop="22dp"
+        android:drawableBottom="@drawable/cl3"
+        />
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/linearLayout4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1">
+    <Button
+        android:textColor="#fff"
+        android:background="@drawable/but"
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:textStyle="bold|italic"
+        android:textSize="24sp"
+        android:text="Регистрация">
+    </Button>
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/linearLayout5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*Для отслеживания результатов введите емаил"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+    </TextView>
+</LinearLayout>
+<LinearLayout
+    android:id="@+id/linearLayout6"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+    </TextView>
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:singleLine="true">
+    </EditText>
+</LinearLayout>
+</LinearLayout>

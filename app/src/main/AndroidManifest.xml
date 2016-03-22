@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="by.chris.excellent">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".LoginDoneActivity" />
+        <activity android:name=".LoginPol" />
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Excellent2_2_2015Activity" />
+        <activity android:name=".ex1" />
+        <activity android:name=".ex2" />
+        <activity android:name=".ex3" />
+        <activity android:name=".ex4" />
+        <activity android:name=".ex5" />
+        <activity android:name=".ex6" />
+        <activity android:name=".ex7" />
+        <activity android:name=".ex8" />
+        <activity android:name=".ex9" />
+        <activity android:name=".ex10" />
+        <activity android:name=".ex11" />
+        <activity android:name=".ex12" />
+        <activity android:name=".ex13" />
+        <activity android:name=".ex14" />
+        <activity android:name=".ex15" />
+        <activity android:name=".ex16" />
+        <activity android:name=".ex17" />
+        <activity android:name=".ex18" />
+        <activity android:name=".map" />
+        <activity android:name=".exmpls" />
+        <activity android:name=".insertlit" />
+        <activity android:name=".zadach1" />
+        <activity android:name=".zadach2" />
+        <activity android:name=".zadach3" />
+        <activity android:name=".zadach4" />
+        <activity android:name=".zadach5" />
+        <activity android:name=".zadach6" />
+        <activity android:name=".zadach7" />
+        <activity android:name=".zadach8" />
+        <activity android:name=".equation" />
+        <activity android:name=".equation2" />
+        <activity android:name=".equation3" />
+        <activity android:name=".segment" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".August2_2015" />
+    </application>
+
+</manifest>

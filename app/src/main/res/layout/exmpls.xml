@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="142dp" android:layout_height="wrap_content"
+    android:layout_x="-1dp"
+    android:layout_y="125dp"
+    android:layout_above="@+id/linearLayout"
+    android:layout_alignParentStart="true"
+    android:id="@+id/linearLayout8">
+    <TextView
+        android:layout_width="84dp"
+        android:layout_height="32dp"
+        android:text="New Text"
+        android:id="@+id/textView16"
+        android:layout_x="0dp"
+        android:layout_y="144dp" />
+    <EditText
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText11"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_x="94dp"
+        android:layout_y="136dp" />
+
+
+</LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="142dp" android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="172dp"
+        android:id="@+id/linearLayout"
+        android:layout_above="@+id/linearLayout7"
+        android:layout_alignParentStart="true">
+    <TextView
+        android:layout_width="85dp"
+        android:layout_height="31dp"
+        android:text="New Text"
+        android:id="@+id/textView17"
+        android:layout_x="0dp"
+        android:layout_y="188dp" />
+    <EditText
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+         android:ems="10"
+        android:id="@+id/editText12"
+        android:layout_x="94dp"
+        android:layout_y="182dp" />
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="142dp" android:layout_height="wrap_content"
+        android:layout_x="-1dp"
+        android:layout_y="223dp"
+        android:id="@+id/linearLayout7"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true">
+    <TextView
+        android:layout_width="85dp"
+        android:layout_height="31dp"
+        android:text="New Text"
+        android:id="@+id/textView18"
+        android:layout_x="0dp"
+        android:layout_y="231dp" />
+    <EditText
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+         android:ems="10"
+        android:id="@+id/editText13"
+        android:layout_x="94dp"
+        android:layout_y="228dp" />
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="142dp" android:layout_height="wrap_content"
+        android:layout_x="191dp"
+        android:layout_y="131dp"
+        android:layout_alignTop="@+id/linearLayout8"
+        android:layout_toEndOf="@+id/linearLayout8">
+    <TextView
+        android:layout_width="85dp"
+        android:layout_height="31dp"
+        android:text="New Text"
+        android:id="@+id/textView19"
+        android:layout_x="204dp"
+        android:layout_y="144dp" />
+    <EditText
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText16"
+        android:layout_x="329dp"
+        android:layout_y="188dp" />
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="142dp" android:layout_height="wrap_content"
+        android:layout_x="191dp"
+        android:layout_y="178dp"
+        android:layout_above="@+id/linearLayout7"
+        android:layout_toEndOf="@+id/linearLayout">
+    <TextView
+        android:layout_width="85dp"
+        android:layout_height="31dp"
+        android:text="New Text"
+        android:id="@+id/textView20"
+        android:layout_x="204dp"
+        android:layout_y="188dp"/>
+    <EditText
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText14"
+        android:layout_x="331dp"
+        android:layout_y="231dp" />
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="142dp" android:layout_height="wrap_content"
+        android:layout_x="184dp"
+        android:layout_y="229dp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_toEndOf="@+id/linearLayout">
+    <TextView
+        android:layout_width="85dp"
+        android:layout_height="31dp"
+        android:text="New Text"
+        android:id="@+id/textView21"
+        android:layout_x="204dp"
+        android:layout_y="231dp"/>
+    <EditText
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText15"
+        android:layout_x="331dp"
+        android:layout_y="139dp"/>
+</LinearLayout>
+      <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Узнать результат!)"
+        android:id="@+id/button20"
+        android:layout_x="0dp"
+        android:layout_y="551dp"
+          android:layout_alignParentBottom="true"
+          android:layout_alignEnd="@+id/textView22"
+          android:layout_marginBottom="52dp" />
+
+    <TextView
+        android:layout_width="354dp"
+        android:layout_height="52dp"
+        android:text="Реши пример - и кодовый замок откроется"
+        android:id="@+id/textView22"
+        android:layout_x="15dp"
+        android:layout_y="428dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

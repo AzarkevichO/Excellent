@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_x="1dp"
+        android:layout_y="0dp"
+        android:layout_below="@+id/linearLayout13"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout14">
+        <TextView  android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView55"
+            android:layout_x="762dp"
+            android:layout_y="170dp"
+            android:textSize="24dp"
+            android:text="1."
+            android:layout_alignParentTop="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView51"
+            android:layout_x="2dp"
+            android:layout_y="13dp"
+            android:text="R"
+            android:textSize="24dp"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/textView30" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText35"
+            android:layout_x="21dp"
+            android:layout_y="8dp"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/textView51" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView52"
+            android:layout_x="59dp"
+            android:layout_y="13dp"
+            android:textSize="24dp"
+            android:text="н"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/editText35" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText34"
+            android:layout_x="78dp"
+            android:layout_y="8dp"
+            android:layout_alignBaseline="@+id/editText17"
+            android:layout_alignBottom="@+id/editText17"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView53"
+            android:layout_x="108dp"
+            android:layout_y="9dp"
+            android:textSize="24dp"
+            android:text="Я"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="46dp"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/linearLayout10"
+        android:layout_below="@+id/linearLayout14"
+        android:layout_toEndOf="@+id/linearLayout13">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView23"
+            android:layout_x="762dp"
+            android:layout_y="244dp"
+            android:textSize="24dp"
+            android:text="2."
+            android:layout_below="@+id/editText35"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:layout_x="461dp"
+            android:layout_y="230dp"
+            android:layout_below="@+id/editText35"
+            android:layout_alignStart="@+id/editText35" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_x="496dp"
+            android:layout_y="251dp"
+            android:textSize="24dp"
+            android:text="кв"
+            android:layout_below="@+id/editText35"
+            android:layout_alignStart="@+id/textView52" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText17"
+            android:layout_x="566dp"
+            android:layout_y="230dp"
+            android:layout_above="@+id/textView26"
+            android:layout_toEndOf="@+id/textView" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="84dp"
+        android:layout_gravity="bottom"
+        android:id="@+id/linearLayout11"
+        android:layout_below="@+id/linearLayout10"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView26"
+            android:layout_x="762dp"
+            android:layout_y="321dp"
+            android:textSize="24dp"
+            android:text="3."
+            android:layout_below="@+id/editText"
+            android:layout_alignParentStart="true" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText18"
+            android:layout_x="461dp"
+            android:layout_y="298dp"
+            android:layout_alignTop="@+id/textView24"
+            android:layout_alignStart="@+id/editText" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView24"
+            android:layout_x="489dp"
+            android:layout_y="321dp"
+            android:textSize="24dp"
+            android:text="ж"
+            android:layout_below="@+id/editText17"
+            android:layout_alignStart="@+id/textView" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText19"
+            android:layout_x="559dp"
+            android:layout_y="298dp"
+            android:layout_below="@+id/editText17"
+            android:layout_toEndOf="@+id/textView27" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2" />
+
+    </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="149dp"
+        android:layout_y="3dp"
+        android:layout_gravity="center_vertical"
+        android:layout_below="@+id/linearLayout13"
+        android:layout_toEndOf="@+id/button3">    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText33"
+        android:layout_x="134dp"
+        android:layout_y="0dp"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView54"
+            android:textSize="24dp"
+            android:text="ь"
+            android:layout_x="152dp"
+            android:layout_y="7dp" /></LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="149dp"
+        android:layout_y="3dp"
+        android:id="@+id/linearLayout13"></LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="131dp"
+        android:id="@+id/linearLayout9"
+        android:layout_below="@+id/textView28"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView29"
+            android:layout_x="762dp"
+            android:layout_y="384dp"
+            android:textSize="24dp"
+            android:text="4."
+            android:layout_below="@+id/editText18"
+            android:layout_alignParentStart="true" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText20"
+            android:layout_x="461dp"
+            android:layout_y="352dp"
+            android:layout_below="@+id/editText18"
+            android:layout_alignStart="@+id/textView51"
+            android:layout_toStartOf="@+id/textView24" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView27"
+            android:layout_x="484dp"
+            android:layout_y="377dp"
+            android:textSize="24dp"
+            android:text="рн"
+            android:layout_below="@+id/editText18"
+            android:layout_alignStart="@+id/textView24" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText21"
+            android:layout_x="556dp"
+            android:layout_y="352dp"
+            android:layout_below="@+id/editText19"
+            android:layout_toEndOf="@+id/textView27" />
+
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="198dp"
+        android:layout_y="141dp"
+        android:layout_below="@+id/textView28"
+        android:layout_alignStart="@+id/button3"
+        android:id="@+id/linearLayout12"></LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="На картинке нарисован"
+        android:id="@+id/textView30"
+        android:layout_x="4dp"
+        android:layout_y="279dp"
+        android:layout_below="@+id/textView25"
+        android:layout_toEndOf="@+id/linearLayout13"
+        android:layout_marginTop="31dp" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText22"
+        android:layout_x="2dp"
+        android:layout_y="298dp"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/textView30"
+        android:layout_toEndOf="@+id/linearLayout13" />
+
+
+
+    <ImageView
+        android:layout_width="153dp"
+        android:layout_height="210dp"
+        android:id="@+id/imageView4"
+        android:layout_x="229dp"
+        android:layout_y="174dp"
+        android:background="@drawable/insertlit"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/editText22"
+        android:layout_marginStart="35dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Проверь себя"
+        android:id="@+id/button3"
+        android:layout_x="50dp"
+        android:layout_y="366dp"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_alignEnd="@+id/linearLayout11" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/textView28"
+    android:layout_x="151dp"
+    android:layout_y="140dp"
+    android:textSize="24dp"
+    android:text="полушарие"
+        android:layout_alignBottom="@+id/linearLayout11"
+        android:layout_toEndOf="@+id/linearLayout11" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/textView25"
+    android:layout_x="124dp"
+    android:layout_y="93dp"
+    android:textSize="24dp"
+    android:text="полушарие"
+        android:layout_alignBottom="@+id/linearLayout9"
+        android:layout_toEndOf="@+id/linearLayout9" />
+
+
+</RelativeLayout>

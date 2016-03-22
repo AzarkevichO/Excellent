@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="333dp"
+        android:layout_height="372dp"
+        android:id="@+id/imageView5"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/segment"
+        android:layout_weight="0.30"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Найди длинну ломанных. Если: желтая - 1 см, черная - 5мм, синяя - 4 см, оранжевая - 2см 6мм, зеленая - 1см 5мм."
+        android:id="@+id/textView64"
+        android:layout_weight="0.06"
+        android:layout_below="@+id/imageView5"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:text="Самая длинная из ломанных - под № "
+        android:id="@+id/textView65"
+        android:layout_below="@+id/textView64"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText37"
+        android:layout_gravity="right"
+        android:inputType="number"
+        android:layout_below="@+id/textView64"
+        android:layout_toEndOf="@+id/textView65" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Проверь себя"
+        android:id="@+id/button21"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/editText37"
+        android:layout_marginEnd="39dp" />
+
+</RelativeLayout>

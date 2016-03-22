@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_2class"
+            android:icon="@mipmap/ic_class"
+            android:title="2 класс" />
+
+        <item android:id="@+id/nav_3class"
+            android:icon="@mipmap/ic_class"
+            android:title="3 класс" />
+
+        <item android:id="@+id/nav_4class"
+            android:icon="@mipmap/ic_class"
+            android:title="4 класс" />
+
+
+    </group>
+
+    <item android:title="Прочее">
+        <menu>
+            <item android:id="@+id/nav_manage"
+                android:icon="@android:drawable/ic_menu_manage"
+                android:title="Настройки" />
+            <item android:id="@+id/nav_send"
+                android:icon="@android:drawable/ic_menu_send"
+                android:title="О приложении" />
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Прочитай тексты. Определи, какой из них является повествованием."
+        android:id="@+id/textView72"
+        android:layout_weight="0.58" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Чудеса! Сегодня к нам прилетел волшебник. Он был невысокий. Его седая борода доставала до пояса. Волшебник был одет в серебристое пальто с золотыми пуговицами."
+        android:id="@+id/textView73"
+        android:layout_weight="0.14"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/textView72" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Невероятно! Совершенно неожиданно на голубом вертолёте прилетел волшебник. Он угостил нас карамелью, потому что для эскимо было уже слишком холодно. Чародей пригласил всех сесть в аппарат небесного цвета и всего за полчаса доставил по домам!"
+        android:id="@+id/textView74"
+        android:layout_weight="0.58"
+        android:layout_below="@+id/textView73"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="39dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Повествованием является текст №  "
+        android:id="@+id/textView76"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/textView74"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="46dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText43"
+        android:inputType="number"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignBottom="@+id/textView76"
+        android:layout_toEndOf="@+id/textView76" />
+
+    <Button
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:text="Проверь себя"
+        android:id="@+id/button24"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/editText43"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+</RelativeLayout>

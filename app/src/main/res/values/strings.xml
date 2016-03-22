@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">Отличник</string>
+    <string name="button_main">Вперед</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_menu">Отличник</string>
+
+    <string name="ok">OK</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment 2 class</string>
+    <string name="august_2015">август 2015</string>
+    <string name="class2">2 класс</string>
+
+    <string name="class3">3 класс</string>
+    <string name="verification">Проверить</string>
+    <string name="ex1">Выберите дорогу, которая приведет в Космический городок.</string>
+    <string name="ex2">Найди робота, который внешне отличается от остальных.</string>
+    <string name="ex3">В каждом ряду есть "лишний" предмет. Найди его и запиши номер в пустую клетку</string>
+    <string name="ex4">Чтобы восстановить формулы смесей, заполни пропуски</string>
+    <string name="ex5">Где-то в электрической цепи ракеты есть неполадки. Чтобы починить всё, реши круговые примеры, в которых пропущенное число равно ответу на предыдущий пример.</string>
+    <string name="ex6">Ты видишь схему жилых отсеков корабля. Квадратики - это каюты, а числа обозначают количество жильцов в них. Сумма чисел по вертикали, горизонтали и диагонали должна быть равной. Заполни пропуски.</string>
+    <string name="ex7">Исправь ошибки в списке Пончика, Отметь галочкой то, что съедобно.</string>
+    <string name="ex8">Отгадай загадки.</string>
+    <string name="ex9">Соедини растения и то, что на них растёт.</string>
+    <string name="ex10">Отметь галочкой верные высказывания.</string>
+    <string name="ex11">Для одного отсека ракеты хватит 8 дм кабеля, что на 4 дм меньше длины кабеля для другого отсека. Сколько всего дециметров кабеля должен принести Шнурик?</string>
+    <string name="ex12">На бумаге, которую показал Шарик, написаны номера кают. Посередине листа красуется большое пятно от чая. Найди закономерность и восстанови числа.</string>
+    <string name="ex13">Реши примеры - и узнаешь, о чём хотят сообщить лунные малыши и малышки.</string>
+    <string name="ex14">Разгадай ребусы, чтобы узнать, каких подарков пожелали лунные жители.</string>
+    <string name="ex15">Перед тобой "умный" компьютер. Он слушается только тех, кто пользуется вежливыми словами. Впиши их.</string>
+    <string name="ex16">Опасный компьютерный вирус развушает слова на белорусском языке. Собери их из букв, чтобы обезвредить угрозу.</string>
+    <string name="ex17">Вирус удален! Однако он всё-таки успел напакостить - повредил важные файлы. Их ещё можно восстановить! Соедини слова на белорусском языке с их переводом на русский.</string>
+    <string name="ex18">Замени по одной букве в каждом слове, чтобы получились новые слова.</string>
+    <string name="seven">7</string>
+    <string name="six">6</string>
+    <string name="nine">9</string>
+    <string name="five">5</string>
+    <string name="one">1</string>
+    <string name="eight">8</string>
+    <string name="four">4</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+
+
+    <string name="map1">Западная Двина</string>
+    <string name="map2">г.Дзержинская</string>
+    <string name="map3">Гомель</string>
+    <string name="map4">Минск</string>
+    <string name="map5">Днепр</string>
+    <string name="map6">о.Нарочь</string>
+    <string name="map7">Витебск</string>
+    <string name="map8">Брест</string>
+    <string name="map9">Гродно</string>
+    <string name="map10">Могилев</string>
+    <string name="exmpls1">25 + 33 - 18 </string>
+    <string name="exmpls2">25 + (33 - 18)</string>
+    <string name="exmpls3">16 : 4 + 48</string>
+    <string name="exmpls4">77 - 12 + 34</string>
+    <string name="exmpls5">77 - (12 + 34)</string>
+    <string name="exmpls6">30 - 21 : 7</string>
+    <string name="insertlit">З</string>
+    <string name="insertlit1">н</string>
+    <string name="insertlit2">я</string>
+    <string name="insertlit3">ь</string>
+    <string name="insertlit4">1.</string>
+    <string name="insertlit5">кв</string>
+    <string name="insertlit6">2.</string>
+    <string name="insertlit7">ж</string>
+    <string name="insertlit8">полушарие</string>
+    <string name="insertlit9">3.</string>
+    <string name="insertlit10">рн</string>
+    <string name="insertlit11">полушарие</string>
+    <string name="insertlit12">4.</string>
+    <string name="zadach1">Если вы поедете на автобусе, дорога займет 1 час.
+    На метро можно добраться до зоопарка в 3 раза быстрее. Сколько времени вы потратите, поехав на метро?</string>
+    <string name="zadach12">Поезда на метро займет</string>
+    <string name="zadach13">минут - это </string>
+    <string name="zadach14">доля часа.</string>
+    <string name="zadach2">В вагоне едет 48 мужчин, а женщин - в 2 раза меньше.Сколько всего пассажирова в вагоне?</string>
+    <string name="zadach21">Всего в вагоне </string>
+    <string name="zadach22">пассажира.</string>
+    <string name="equaation1">35 - x = 15</string>
+    <string name="equaation2">y + 27 = 73</string>
+    <string name="equaation3">36 : b = 9 </string>
+    <string name="equaation4">7 * a = 21</string>
+    <string name="equaation5">c + 17 = 4 * 7</string>
+    <string name="equaation6">Татьяна</string>
+    <string name="title_activity_august2015">august2015</string>
+
+
+</resources>
