@@ -4,16 +4,17 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.view.View.OnClickListener;
 import android.widget.ImageView;
-public class LoginActivity extends Activity{
+public class LoginActivity extends FragmentActivity{
 
 
-    String name;
+   public String name;
     TextView txt86;
     static public  EditText etName;
     Intent intent;

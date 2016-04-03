@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drawche">
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:id="@+id/button33"
+        android:background="@drawable/button"
+        android:onClick="onClickFragment"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView20"
+        android:background="@drawable/podckac"
+        android:layout_toEndOf="@+id/button33"
+        android:layout_below="@+id/imageView21"
+        android:layout_toRightOf="@+id/button33" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView21"
+        android:background="@drawable/pyzirt2"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/imageView20"
+        android:layout_alignEnd="@+id/imageView20" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView100"
+        android:textColor="#000000"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="48dp"
+        android:layout_toLeftOf="@+id/imageView21"
+        android:layout_toStartOf="@+id/imageView21"
+        android:layout_marginLeft="10dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText50"
+        android:layout_alignTop="@+id/imageView20"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="105dp"
+        android:layout_toLeftOf="@+id/imageView21"
+        android:layout_toStartOf="@+id/imageView21"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="8dp"
+        android:textColor="#000000"
+        android:text="*Место для плана"
+        android:id="@+id/textView102"
+        android:layout_below="@+id/editText50"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp" />
+
+</RelativeLayout>

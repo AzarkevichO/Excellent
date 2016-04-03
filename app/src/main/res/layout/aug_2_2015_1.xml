@@ -1,12 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <ImageView
+        android:layout_width="293dp"
+        android:layout_height="98dp"
+        android:id="@+id/imageView19"
+        android:background="@drawable/ex111"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="333dp"
+        android:layout_height="173dp"
+        android:id="@+id/imageView12"
+        android:background="@drawable/ex1_2"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="253dp"
+            android:layout_height="195dp"
+            android:id="@+id/imageView13"
+            android:background="@drawable/ex1_1"
+            android:layout_weight="1" />
+
+        <NumberPicker
+            android:id="@+id/numberPicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:width="100dip"
+            android:gravity="clip_horizontal|center" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="164dp"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Фрагмент 1"
-        android:id="@+id/textView1" />
+        android:id="@+id/button33"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/but_verification" />
+
 </LinearLayout>

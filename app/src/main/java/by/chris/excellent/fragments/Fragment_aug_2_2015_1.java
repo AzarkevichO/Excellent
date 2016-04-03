@@ -1,70 +1,74 @@
 package by.chris.excellent.fragments;
 
-import android.content.Context;
-import android.net.Uri;
+import android.app.DialogFragment;
+import android.app.FragmentManager;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
+import android.widget.Button;
+import android.widget.NumberPicker;
 
 import by.chris.excellent.R;
 
 
 public class Fragment_aug_2_2015_1 extends Fragment {
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
 
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
-
+    Integer val_np;
+    DialogFragment dialogFragment4;
+    dialogFragment6 dialogFragment6;
+    NumberPicker np;
+    android.support.v4.app.FragmentManager manager;
+    private FragmentTransaction transaction;
+    Fragment_aug_2_2015_2 fr2;
 
     public Fragment_aug_2_2015_1() {
         // Required empty public constructor
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment Fragment_aug_2_2015_1.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static Fragment_aug_2_2015_1 newInstance(String param1, String param2) {
-        Fragment_aug_2_2015_1 fragment = new Fragment_aug_2_2015_1();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
-    }
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
-    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        dialogFragment4 = new DialogFragment4();
+        dialogFragment6 = new dialogFragment6();
+        fr2 = new Fragment_aug_2_2015_2();
 
 
-        return inflater.inflate(R.layout.aug_2_2015_1, null);
+        View v;
+        v = inflater.inflate(R.layout.aug_2_2015_1, container, false);
+
+        np = (NumberPicker) v.findViewById(R.id.numberPicker);
+        np.setWrapSelectorWheel(false);
+        np.setMaxValue(4);
+        np.setMinValue(1);
+
+
+        Button button = (Button) v.findViewById(R.id.button33);
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                val_np = np.getValue();
+
+                if (val_np.equals(3)){
+                    FragmentManager fm = getActivity().getFragmentManager();
+                    dialogFragment4.show(fm,"dialogFragment6");
+                    FragmentTransaction trans=getFragmentManager().beginTransaction();
+                    trans.replace(R.id.container_2class, fr2);
+                    trans.commit();
+                }
+                else {
+                    FragmentManager fm = getActivity().getFragmentManager();
+                    dialogFragment6.show(fm,"dialogFragment4");
+                }
+
+                }
+
+        });
+
+        return v;
+
     }
-
-
-
-
-
 
 }

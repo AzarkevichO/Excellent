@@ -1,7 +1,9 @@
 package by.chris.excellent;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.os.SystemClock;
@@ -14,6 +16,7 @@ import android.view.View.OnClickListener;
 
 public class LoginPol extends Activity{
 
+    private static final String MY_SETTINGS = "my_settings";
 
     TextView txt90;
     String s1 = new String();
@@ -27,12 +30,16 @@ public class LoginPol extends Activity{
         setContentView(R.layout.loginpol);
 
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-
         txt90 = (TextView) findViewById(R.id.textView90);
         rdgroup = (RadioGroup) findViewById(R.id.radioGroup);
 
         Intent intent2 = getIntent();
         name = intent2.getStringExtra("name");
+        SharedPreferences sp = getSharedPreferences(MY_SETTINGS,
+                Context.MODE_PRIVATE);
+        SharedPreferences.Editor e = sp.edit();
+        e.putBoolean("hasVisited", true);
+        e.commit();
         txt90.setText(name+"! Да это же одно из моих любимых имен! Я конечно не глупый кот, но все же скажи: ты мальчик? или девочка?");
 
         rdgroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {

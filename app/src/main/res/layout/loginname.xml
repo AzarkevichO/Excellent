@@ -14,6 +14,20 @@
     android:layout_marginTop="57dp"
     android:id="@+id/linearLayout21">
 
+    <EditText
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText40"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="13dp"
+        android:imeOptions="actionDone"
+        android:inputType="textPersonName"
+        android:layout_alignBottom="@+id/textView87"
+        android:layout_toLeftOf="@+id/imageView10"
+        android:layout_toRightOf="@+id/textView87"
+        android:layout_toEndOf="@+id/textView87" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -47,15 +61,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textStyle="italic"
-        android:text="Как же много прекрасных имен я знаю.Вот инстересно, а как зовут тебя?"
+        android:text="   Привет друг!  Меня зовут Леопольд.Мы будем путешествовать вмести.Я знаю много имен.Вот инстересно,а как зовут тебя?"
         android:id="@+id/textView86"
         android:textColor="#000000"
         android:textSize="13dp"
-        android:layout_marginTop="45dp"
+        android:layout_marginTop="32dp"
         android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/imageView10"
         android:layout_alignStart="@+id/imageView10"
-        android:layout_marginRight="12dp"
-        android:layout_marginLeft="10dp" />
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -66,20 +81,7 @@
         android:text="Тебя зовут :"
         android:id="@+id/textView87"
         android:layout_alignTop="@+id/textView86"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/editText40"
-        android:textStyle="bold"
-        android:textColor="#000000"
-        android:textSize="13dp"
-        android:imeOptions="actionDone"
-        android:inputType="textPersonName"
-        android:layout_alignBottom="@+id/textView87"
-        android:layout_toLeftOf="@+id/imageView10"
-        android:layout_toRightOf="@+id/textView87"
-        android:layout_toEndOf="@+id/textView87" />
 
 </RelativeLayout>

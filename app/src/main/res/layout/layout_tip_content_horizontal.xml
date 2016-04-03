@@ -6,14 +6,12 @@
               android:gravity="center">
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="193dp"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:layout_weight="1"
         android:textSize="16sp"
         android:textColor="@android:color/white"
-        android:text="「节目」已经更名为「歌单」啦！"/>
-
+        android:text="ТЫ молодец！Все правильно решил, давай пойдем дальше. твой Леопольд"/>
     <View
         android:layout_width="0.5dip"
         android:layout_height="40dip"
@@ -22,14 +20,16 @@
         android:layout_marginTop="10dip"
         android:layout_marginBottom="10dip"
         android:background="@android:color/white"/>
-
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Вперед"
+        android:text="Дальше"
+        android:id="@+id/but"
         android:background="@null"
         android:layout_weight="3"
-        android:textColor="#01741d"
+        android:textColor="@android:color/white"
         android:textSize="16sp"/>
+
+
 
 </LinearLayout>

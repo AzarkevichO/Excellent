@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="horizontal" android:layout_width="match_parent"
+android:layout_height="match_parent" android:background="@drawable/drawcheb">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:text="Глава I. Известно откуда,но неизвестно как"
+        android:id="@+id/textView92"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ScrollView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/textView92"
+        android:layout_alignLeft="@+id/textView92"
+        android:layout_alignStart="@+id/textView92"
+        android:layout_marginLeft="122dp"
+        android:layout_marginStart="122dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/glava1cheb1"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:id="@+id/textView91"
+            android:layout_below="@+id/textView92"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView12"
+        android:layout_gravity="center_horizontal" />
+
+
+</RelativeLayout>

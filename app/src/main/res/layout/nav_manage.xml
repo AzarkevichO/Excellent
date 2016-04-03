@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorAntiqueWhite"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Изменить имя:  "
+        android:id="@+id/textView89"
+        android:layout_marginTop="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView95"
+        android:layout_alignStart="@+id/textView95" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ошибся в написании своего имени? не расстраивайся, ты можешь все исправить!"
+        android:id="@+id/textView95"
+        android:layout_above="@+id/textView93"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textView93"
+        android:layout_alignTop="@+id/textView89"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="на"
+        android:id="@+id/textView94"
+        android:layout_below="@+id/textView95"
+        android:layout_toLeftOf="@+id/button30"
+        android:layout_toStartOf="@+id/button30" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText48"
+        android:layout_alignBottom="@+id/textView94"
+        android:layout_alignLeft="@+id/button28"
+        android:layout_alignStart="@+id/button28"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Изменить"
+        android:id="@+id/button28"
+        android:onClick="onClickFrag"
+        android:layout_below="@+id/editText48"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Хочешь чтобы родители знали о твоих успехаха? Введи их электронную почту и они будут знать какой ты молодец!"
+        android:id="@+id/textView96"
+        android:layout_below="@+id/button28"
+        android:layout_alignLeft="@+id/textView89"
+        android:layout_alignStart="@+id/textView89" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText49"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textView96"
+        android:layout_alignStart="@+id/textView96"
+        android:clickable="false" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ввести"
+        android:id="@+id/button30"
+        android:onClick="onClickFrag"
+        android:layout_below="@+id/textView96"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/button28"
+        android:layout_alignStart="@+id/button28" />
+
+</RelativeLayout>

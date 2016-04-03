@@ -6,20 +6,12 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.app.Fragment;
-import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import by.chris.excellent.Excellent2_2_2015Activity;
-import by.chris.excellent.insertlit;
-import by.chris.excellent.map;
-import by.chris.excellent.exmpls;
-import by.chris.excellent.zadach6;
-import by.chris.excellent.equation3;
-import by.chris.excellent.segment;
-import by.chris.excellent.LoginActivity;
+import by.chris.excellent.Cheburashka;
 import by.chris.excellent.R;
 
 /**
@@ -82,8 +74,8 @@ public class Fragment_3class  extends Fragment {
         button10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(Fragment_3class.this.getActivity(),exmpls.class);
-                Fragment_3class.this.startActivity(myIntent);            }
+                Intent mIntent = new Intent(Fragment_3class.this.getActivity(),Cheburashka.class);
+                Fragment_3class.this.startActivity(mIntent);            }
         });
         return v;
 

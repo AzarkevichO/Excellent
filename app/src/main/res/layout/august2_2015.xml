@@ -1,16 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backk"
     tools:context="by.chris.excellent.August2_2015">
 
 
+    <VideoView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/videoView"
+        android:layout_gravity="top|bottom|center_horizontal"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"/>
+
     <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/container_2class">
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/container_2class"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:id="@+id/button"
+            android:layout_gravity="center_horizontal|bottom"
+            android:onClick="onClickFragment"
+            android:singleLine="false"
+            android:background="@drawable/button" />
     </FrameLayout>
 
-</LinearLayout>
+</RelativeLayout>

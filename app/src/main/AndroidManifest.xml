@@ -6,6 +6,10 @@
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
 
     <application
         android:allowBackup="true"
@@ -16,9 +20,13 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+        </activity>
+        <activity android:name=".camer">
+
+
         </activity>
         <activity android:name=".LoginActivity" />
         <activity android:name=".LoginDoneActivity" />
@@ -27,11 +35,16 @@
             android:name=".MenuActivity"
             android:label="@string/title_activity_menu"
             android:theme="@style/AppTheme.NoActionBar" />
+
         <activity android:name=".Excellent2_2_2015Activity" />
         <activity android:name=".ex1" />
         <activity android:name=".ex2" />
-        <activity android:name=".ex3" />
-        <activity android:name=".ex4" />
+        <activity android:name=".ex3" />\
+        <activity android:name=".Cheburashka" >
+
+        </activity>
+        <activity android:name=".August2_2015" />
+              <activity android:name=".ex4" />
         <activity android:name=".ex5" />
         <activity android:name=".ex6" />
         <activity android:name=".ex7" />
@@ -47,8 +60,9 @@
         <activity android:name=".ex17" />
         <activity android:name=".ex18" />
         <activity android:name=".map" />
-        <activity android:name=".exmpls" />
-        <activity android:name=".insertlit" />
+        <activity android:name=".exmpls">
+
+</activity>
         <activity android:name=".zadach1" />
         <activity android:name=".zadach2" />
         <activity android:name=".zadach3" />
@@ -61,8 +75,7 @@
         <activity android:name=".equation2" />
         <activity android:name=".equation3" />
         <activity android:name=".segment" />
-        <activity android:name=".Main2Activity" />
-        <activity android:name=".August2_2015" />
+
     </application>
 
 </manifest>
